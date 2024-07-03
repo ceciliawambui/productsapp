@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-w02tg3-v#sr(#3970)jy*&(^#a-+i-k*uotb&b6w#&$*!qix+m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -92,6 +92,7 @@ WSGI_APPLICATION = 'productsproject.wsgi.application'
 #     }
 # }
 import dj_database_url
+
 # import os
 
 DATABASES = {
